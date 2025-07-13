@@ -1,3 +1,9 @@
+
+
+pip install pandas numpy scipy openpyxl tqdm
+
+## Following need to be installed:
+
 pandas
 numpy
 scipy
