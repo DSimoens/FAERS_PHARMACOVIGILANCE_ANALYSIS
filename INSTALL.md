@@ -1,8 +1,8 @@
-# 📦 FAERS Disproportionality Analysis Pipeline - Installation Guide
+# FAERS ROR and PRR analysis with depublication - Installation Guide
 
 Follow these instructions to install and run the FAERS Disproportionality Analysis pipeline from GitHub:
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Git
@@ -10,13 +10,13 @@ Follow these instructions to install and run the FAERS Disproportionality Analys
 
 ---
 
-## 🔧 Step-by-Step Instructions
+## Step-by-Step Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/faers-analysis-pipeline.git
-cd faers-analysis-pipeline
+git clone https://github.com/DSimoens/FAERS_ANALYSIS_ROR_PRR.git
+cd FAERS_ANALYSIS_ROR_PRR
 ```
 
 ### 2. Set Up a Virtual Environment (optional but recommended)
@@ -72,9 +72,9 @@ Then open `notebook.ipynb` and follow the cells to:
 
 ---
 
-## 📤 Output
+## Output
 
-Results are saved as an Excel file:
+Results are saved as an Excel file (you can change the name of the excel file):
 
 ```
 FAERS_ROR_PRR_Results.xlsx
@@ -82,6 +82,6 @@ FAERS_ROR_PRR_Results.xlsx
 
 ---
 
-## 📚 Citations & Attribution
+## Citations & Attribution
 
 If used in academic work, please cite this repository and include a link to the GitHub page. The methodology includes VigiMatch-style deduplication and supports pharmacovigilance reproducibility.
