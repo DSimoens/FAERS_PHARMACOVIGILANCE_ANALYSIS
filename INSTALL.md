@@ -16,14 +16,14 @@ Follow these instructions to install and run the FAERS Disproportionality Analys
 
 ```bash
 git clone https://github.com/DSimoens/FAERS_ANALYSIS_ROR_PRR.git
-cd FAERS_ANALYSIS_ROR_PRR
+cd FAERS_Pharmacovigilance_Analysis
 ```
 
 ### 2. Set Up a Virtual Environment (optional but recommended)
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate      # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install Dependencies
@@ -77,7 +77,7 @@ Then open `notebook.ipynb` and follow the cells to:
 Results are saved as an Excel file (you can change the name of the excel file):
 
 ```
-FAERS_ROR_PRR_Results.xlsx
+FAERS_xxx_Results.xlsx   # adjust name according to preference
 ```
 
 ---
