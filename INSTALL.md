@@ -1,4 +1,4 @@
-# FAERS ROR and PRR analysis with depublication - Installation Guide
+# FAERS pharmacovigilanc analysis with VigiMatch depublication - Installation Guide
 
 Follow these instructions to install and run the FAERS Disproportionality Analysis pipeline from GitHub:
 
@@ -15,7 +15,7 @@ Follow these instructions to install and run the FAERS Disproportionality Analys
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/DSimoens/FAERS_ANALYSIS_ROR_PRR.git
+git clone https://github.com/DSimoens/FAERS_PHARMACOVIGILANCE_ANALYSIS.git
 cd FAERS_Pharmacovigilance_Analysis
 ```
 
