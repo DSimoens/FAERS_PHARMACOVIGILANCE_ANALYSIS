@@ -1,4 +1,4 @@
-# FAERS Disproportionality Analysis Pipeline
+# FAERS Pharmacovigilance Analysis Pipeline
 
 A **Jupyter notebook** to perform pharmacovigilance signal detection using the U.S. FDA Adverse Event Reporting System (FAERS). The pipeline calculates pharmacovigilance metrics such as ROR, PRR, RRR, and Haldane's Odds Ratio with 95% confidence intervals for a drug–event combination and exports the results to Excel.
 
