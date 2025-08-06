@@ -52,6 +52,10 @@ Load and clean FAERS DRUG and REAC files across a selected time period.
   - **Chi-square and Yates-corrected Chi-square p-values**
 - Export detailed results and breakdowns to a multi-sheet Excel file.
 
+Optional python file: Eudravigilance_deduplication...
+
+A basic analysis to perform on the EudraVigilance line listing file. The dataset is first deduplicated based on unique case identifiers. To ensure consistency, the line listing excel sheet needs to be cleaned before running the code by renaming coloms, removing punctuation and removing extra details from the reactions. After preprocessing, the frequency of each reported event is calculated. Minor adjustments to sheet or column names in the Excel file may be required before executing the code.
+
 
 ## Example of user input
 
