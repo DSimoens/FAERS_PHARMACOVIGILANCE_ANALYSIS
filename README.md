@@ -40,6 +40,7 @@ Now you can either run Jupyter notebook or use vcode with the Jupyter extention.
 
 Load and clean FAERS DRUG and REAC files across a selected time period.
 - Normalize drug names using a provided synonym list.
+- Normalize synonym event wher it converts all adverse event terms to uppercase and match against a user-defined synonym list (case-insensitive).
 - Remove duplicates according VigiMatch standards.
 - Match adverse events based on a list of synonyms.
 - Build contingency table for 2x2 analysis.
@@ -50,7 +51,15 @@ Load and clean FAERS DRUG and REAC files across a selected time period.
   - **Haldane's Odds Ratio** + 95% CI
   - **Fisher's Exact Test p-value**
   - **Chi-square and Yates-corrected Chi-square p-values**
-- Export detailed results and breakdowns to a multi-sheet Excel file.
+- Bayesian pharmacovigilance methods:
+  - **Information Component (IC) with 95% credibility interval**
+  - **Information Component (IC) with 95% credibility interval**
+  - **Empirical Bayes Geometric Mean (EBGM) with 95% credibility interval**
+- Export detailed results and breakdowns to a multi-sheet Excel file:
+  - Summary sheet with overall metrics
+  - Event Synonym Breakdown sheet with detailed counts
+- Optional log of skipped or malformed input files
+
 
 Optional python file: Eudravigilance_deduplication...
 
