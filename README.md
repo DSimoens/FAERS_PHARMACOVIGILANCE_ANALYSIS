@@ -53,7 +53,6 @@ Load and clean FAERS DRUG and REAC files across a selected time period.
   - **Chi-square and Yates-corrected Chi-square p-values**
 - Bayesian pharmacovigilance methods:
   - **Information Component (IC) with 95% credibility interval**
-  - **Information Component (IC) with 95% credibility interval**
   - **Empirical Bayes Geometric Mean (EBGM) with 95% credibility interval**
 - Export detailed results and breakdowns to a multi-sheet Excel file:
   - Summary sheet with overall metrics
